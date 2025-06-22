@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.scene-editor .title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #FFCB05;
+}
+
+.scene-card {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.scene-card textarea {
+  flex: 1;
+  background: #2a2a2a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  resize: none;
+  height: 80px;
+}
+
+.add-btn, .delete-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-btn {
+  background-color: #00C853;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.delete-btn {
+  background-color: #EF5350;
+  color: white;
+}
